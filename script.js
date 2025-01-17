@@ -60,16 +60,18 @@ for (let i = 0; i < teamMembers.length; i++) {
   // Creo i tag 
   iteam += `
   <div class="team">
+
       <div class="imgBox">
         <img class="pictures" src="${img}" alt="${name}">
       </div>
+
       <div class="elementBox">
 
-        <h2 class"person-name"">${name}</h2>
-
-        <p class="email">${email}</p>
+        <h2 class"person-name">${name}</h2>
 
         <p class="role">${role}</p>
+        
+        <a href="#" class="email">${email}</a>
 
       </div>
   </div>
