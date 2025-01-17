@@ -38,7 +38,7 @@ const teamMembers = [
 ];
 
 // Seleziono gli elementi Html
-const team = document.querySelectorAll('.team')
+const content = document.getElementById('content')
 
 // Variabile "d'appoggio"
 
@@ -59,7 +59,22 @@ for (let i = 0; i < teamMembers.length; i++) {
 
   // Creo i tag 
   iteam += `
-    
-    `
+  <div class="team">
+      <div class="imgBox">
+        <img src="${img}" alt="${name}">
+      </div
+      <div class="elementBox"
+        <h3>${name}</h3>
+        <p>${email}</p>
+        <p>${role}</p>
+      </div>
+  </div>
+            `
 }
+
+// Stampo a schermo
+
+content.innerHTML = iteam;
+
+
 
