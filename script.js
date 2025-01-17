@@ -62,11 +62,15 @@ for (let i = 0; i < teamMembers.length; i++) {
   <div class="team">
       <div class="imgBox">
         <img class="pictures" src="${img}" alt="${name}">
-      </div
-      <div class="elementBox"
-        <h3>${name}</h3>
-        <a href="#">${email}</a>
-        <p>${role}</p>
+      </div>
+      <div class="elementBox">
+
+        <h2 class"person-name"">${name}</h2>
+
+        <p class="email">${email}</p>
+
+        <p class="role">${role}</p>
+
       </div>
   </div>
             `
