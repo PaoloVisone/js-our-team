@@ -36,3 +36,30 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+
+// Seleziono gli elementi Html
+const team = document.querySelectorAll('.team')
+
+// Variabile "d'appoggio"
+
+let iteam = ""
+
+// Ciclo l'array d'oggetti
+for (let i = 0; i < teamMembers.length; i++) {
+  // Seleziono ogni proprietà dell'oggetto
+  let elements = teamMembers[i];
+
+  console.log(elements);
+
+
+  // Seleziono le prioprietà e le associo ad una variabile
+  const { name, role, email, img } = elements;
+
+  console.log(name, role, email, img);
+
+  // Creo i tag 
+  iteam += `
+    
+    `
+}
+
