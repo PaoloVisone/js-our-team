@@ -61,11 +61,11 @@ for (let i = 0; i < teamMembers.length; i++) {
   iteam += `
   <div class="team">
       <div class="imgBox">
-        <img src="${img}" alt="${name}">
+        <img class="pictures" src="${img}" alt="${name}">
       </div
       <div class="elementBox"
         <h3>${name}</h3>
-        <p>${email}</p>
+        <a href="#">${email}</a>
         <p>${role}</p>
       </div>
   </div>
