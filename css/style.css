@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+/* Font */
+
 body {
     font-family: "Nunito", serif;
     font-weight: 800px;
@@ -12,6 +14,8 @@ body {
 #container {
     padding: 20px
 }
+
+/* header */
 
 header {
     text-align: center;
@@ -32,30 +36,48 @@ header {
     flex-wrap: wrap;
 }
 
+/* Team Element */
+
 .team {
     width: calc(100% / 3);
     padding: 10px;
     display: flex;
 }
 
-.imgBox {
-    width: 50%;
-}
+/* Immage */
 
 .pictures {
     width: 100%;
     height: 100%;
 }
 
+/* Text */
+
 .elementBox {
     width: 100%;
     color: white;
     background-color: black;
     padding: 20px;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .email {
     text-decoration: none;
     color: rgb(127, 182, 255);
+}
+
+/* Responsive @media */
+
+@media screen and (max-width:720px) {
+
+    .team {
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width:540px) {
+
+    .team {
+        width: 100%;
+    }
 }
